@@ -50,4 +50,4 @@ The email address of a user account that has access to the drive folder and will
 
 
 #### `override` (Optional):
-If set true, delete files with the same name before uploading.
+If set to true, this parameter will enable the deletion of files with identical names before initiating an upload. While Google Drive permits folders to contain multiple files with matching names, toggling this parameter to true will result in overwriting the previous artifact, rather than uploading a new one alongside it.
